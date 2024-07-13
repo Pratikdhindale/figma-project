@@ -1133,6 +1133,7 @@ footer {
 }
 
 .se-bar input {
+  width: 284px;
   background-color: #1e293b;
   border: none;
   padding: 16.4px;
@@ -1144,11 +1145,27 @@ footer {
   background-color: #1e293b;
   border: none;
   padding: 10px;
+  margin-bottom: 19px;
   border-radius: 0 5px 5px 0;
   cursor: pointer;
 }
 
+.toggle-buttons button {
+  background-color: #334155;
+  border: none;
+  padding: 8px 16px;
+  color: white;
+  cursor: pointer;
+}
 
+.toggle-buttons .free {
+  border-radius: 5px 0 0 5px;
+}
+
+.toggle-buttons .premium {
+  border-radius: 0 5px 5px 0;
+  background-color: #3b82f6;
+}
 .mid-div{
   display: flex;
   justify-content: space-between;
@@ -1204,6 +1221,7 @@ footer {
   height: 150px;
   border-radius:8px;
 }
+
 
 /* pricing  */
 
@@ -1435,7 +1453,7 @@ border-radius: 18px;
   text-align: center;
 }
 
-input, textarea {
+input , textarea {
   width: 100%;
   padding: 10px;
   margin-bottom: 20px;
