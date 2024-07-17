@@ -423,6 +423,7 @@ hr{
   }
 
   .section5-h3{
+    text-align: center;
     color: white;
     font-weight: 700;
     font-size: 20px;
@@ -430,6 +431,7 @@ hr{
   }
   .sec5h3{
     padding-left: 10px;
+    text-align: center;
   }
   .cus{
     padding-left: 30px;
@@ -510,7 +512,7 @@ hr{
     margin-top: 0;
     font-size: 16px;
   }
-
+/* c */
   .fig-div{
     text-align: center;
    
@@ -612,6 +614,7 @@ hr{
   cursor: pointer;
 }
 
+/* footer */
 footer {
   background-color: #1a1a2e;
   color: var(--stdWhite);
